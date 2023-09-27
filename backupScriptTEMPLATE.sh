@@ -4,13 +4,13 @@
 
 # This is a template for the backup script.
 # Copy this file to the root of your WordPress installation and rename it to backupScript.sh
-# Then edit the variables below to suit your needs.
+# Then edit the variables below to suit your needs. Hint: these variables can be found in wp-config.php
 
 # !!! MAKE SURE THAT THIS FILE IS NOT ACCESSIBLE FROM THE WEB !!!
 # !!! MAKE SURE THAT THIS FILE IS NOT ACCESSIBLE FROM THE WEB !!!
 # !!! MAKE SURE THAT THIS FILE IS NOT ACCESSIBLE FROM THE WEB !!!
 # Permissions should be 700 (rwx------) or 750 if you want to allow exec access to the group
-# Ideally, make an exception for this file in the .htaccess file of your WordPress installation
+# Make an exception for this file in the .htaccess file of your WordPress installation
 # Example: "RewriteRule ^backupScript.sh$ - [R=404,L]"
 
 # DB variables
