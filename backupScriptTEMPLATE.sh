@@ -19,7 +19,7 @@ DB_PASS="password"
 DB_NAME="wordpress"
 DB_HOST="localhost"
 # Backup directory
-BACKUP_DIR="wp-content/backup"
+BACKUP_DIR="./backup"
 # Date and time
 DATE_NOW=$(date +%Y-%m-%d-%H-%M-%S)
 # Backup file name scheme
