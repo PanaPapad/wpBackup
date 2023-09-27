@@ -1,5 +1,6 @@
 <?php
 /*
+Deprecated: Replaced by SCRIPT Template
 Plugin Name: WpBackup
 Description: This plugin creates backups of the WordPress database.
 Version: 0.9
@@ -49,7 +50,7 @@ function wpBackup_admin_page(){
     echo '<form action="" method="post">';
     echo '<input type="submit" name="submit" value="Create Script">';
     echo '</form>';
-    if(isset($_POST['submit'])){        
+    if(isset($_POST['submit'])){
         generate_backup_script();
     }
 }
